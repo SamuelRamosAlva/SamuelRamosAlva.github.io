@@ -4,7 +4,7 @@ header {
 }
 
 header a {
-    background: #ddc01b;
+    background: #6699ff;
     font-size: 30px;
     font-style: oblique;
     text-align: justify;
@@ -12,13 +12,17 @@ header a {
     line-height: 15px;
 }
 
-address {
-    margin: 20px;
-    font-size: 22px;
+body section {
+    background: rgb(9, 120, 139);
 }
 
-body section {
-    background: rgb(238, 161, 47);
+body section h2 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body aside {
+    background: rgb(139, 126, 216);
 }
 
 footer {
