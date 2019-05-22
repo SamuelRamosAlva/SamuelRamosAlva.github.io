@@ -17,6 +17,10 @@ address {
     font-size: 22px;
 }
 
+body ul a {
+    background: #6699ff;
+}
+
 body section {
     background: rgb(238, 161, 47);
 }
