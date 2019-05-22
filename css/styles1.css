@@ -1,0 +1,22 @@
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(18, 228, 123);
+}
+
+header a {
+    background: #6699ff;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: justify;
+    margin: 20px;
+    line-height: 15px;
+}
+
+section {
+    background: rgb(15, 238, 227);
+}
+
+footer {
+    background: black;
+    color: white;
+}
