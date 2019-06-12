@@ -229,6 +229,29 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    
+        $('#bd-example').carousel({
+            interval: 4000
+        });
+        
+        $('.carousel .item').each(function () {
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+        
+            for (var i = 0; i < 4; i++) {
+                next = next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+        
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
+            </script>
 </body>
 
 </html>
