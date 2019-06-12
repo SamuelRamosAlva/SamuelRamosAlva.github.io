@@ -9,50 +9,121 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Samuel Ramos</title>
+    <title>Mi Pagina Web</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/linearicons.css">
 </head>
 
 <body>
-    <header>
-        <h1 align="center">Bienvenidos</h1>
-        <nav>
-            <ul>
-                <a href="contacto.html">Contactos</a>
-                <a href="sitiosTuristicos.html">Sitios turísticos</a>
-                <a href="lab03.html">Lab03</a>
-                <hr>
-            </ul>
-        </nav>
+    <header id="header">
+        <div class=" main-menu ">
+            <div class="row align-items-center justify-content-between d-flex bg-warning pl-5 pr-5">
+                <div id="logo ">
+                    <a href="index.html"><img src="img/logoS.png" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="contacto.html">Contactos</a></li>
+                        <li><a href="sitiosTuristicos.html">Sitios Turísticos</a></li>
+                        <li><a href="zozor.html">Zozor</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <section class="wraper">
-        <section class="main">
-            <img src="imagenes\miFoto.jpg" />
-            <h2>Datos personales</h2>
-            <address>
-                <b>Nombre: </b> Samuel Ramos Alva <br>
-                <b>Ocupación: </b> Estudiante de Ingeniería de Sistemas en la Universidad Nacional de Cajamarca. <br>
-                <b>Dirección: </b> Jr. Ciro Alegría n° 422 <br>
-                <b>linkedin: </b> <a href="https://www.linkedin.com/in/samuel-ramos-364195176/">Samuel Ramos Alva</a>
-            </address>
-        </section>
-        <aside>
-            <p>
-                Nací en Cajamarca el 15 de noviembre, físicamente soy de complexión delgada, me considero una persona alegre, sociable. Actualmente estudio Ingeniería de Sistemas, voy en el 9° ciclo, la rama que mas me apasiona es Redes y conectividad. Pensando un poquito
-                más en mi futuro deseo formar mi empresa y ser una persona totalmente independiente tanto físicamente como mentalmente.
-            </p>
-        </aside>
+    <section class="banner-area">
+        <div class=" container ">
+            <div class="row fullscreen align-items-center justify-content-between ">
+                <div class="col-lg-6 col-md-6 banner-left ">
+                    <h6>Hola mi nombre es...</h6>
+                    <h1>Samuel <br> Ramos Alva</h1>
+                    <p>
+                        Me considero una persona alegre, sociable. Actualmente estudio Ingeniería de Sistemas, voy en el 9° ciclo, la rama que mas me apasiona es Redes y conectividad.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 banner-right ">
+                    <img class="img-fluid w-75 h-75 " src="img/samuel.png " alt=" ">
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <address>
-                <br><p>Copyright &copy; 2019 Samuel Ramos, todos los derechos reservados.</p>
-        </address>
+    <section class="services-area ">
+        <div class="container ">
+            <div class="row " style="background-color: lightblue">
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="single-services ">
+                        <span class="lnr lnr-calendar-full "></span>
+                        <a href="# ">
+                            <h4>Datos Personales</h4>
+                        </a>
+                        <p>
+                            Lugar de Nacimiento: Cajamarca <br> Fecha: 15 de noviembre <br> Dirección: Jr. Ciro Alegría n° 422
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="single-services ">
+                        <span class="lnr lnr-diamond "></span>
+                        <a href="# ">
+                            <h4>Pasatiempos</h4>
+                        </a>
+                        <p>
+                            Videojuegos <br> Ver animes <br> Bilar <br> pasear
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="single-services ">
+                        <span class="lnr lnr-bicycle "></span>
+                        <a href="# ">
+                            <h4>Deportes</h4>
+                        </a>
+                        <p>
+                            Ciclismo <br> Equitación <br> Correr <br> Ajedrez
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-area section-top-border ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-5 col-md-6 col-sm-6 ">
+                    <div class="single-footer-widget ">
+                        <p class="footer-text ">
+                            Copyright © Copyright © 2019 Todos los derechos reservados
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 social-widget ">
+                    <div class="single-footer-widget ">
+                        <h4>Sígueme</h4>
+                        <p>en las redes sociales...</p>
+                        <div class="footer-social d-flex align-items-center justify-content-around ">
+                            <a href="https://www.linkedin.com/in/samuel-ramos-364195176/ "><i class="fa fa-linkedin fa-3x "></i></a>
+                            <a href="https://www.facebook.com/SamuelRamosAlva "><i class="fa fa-facebook fa-3x "></i></a>
+                            <a href="https://www.instagram.com/samuel_ramos_alva/ "><i class="fa fa-instagram fa-3x "></i></a>
+                            <a href="https://twitter.com/samuel40121 "><i class="fa fa-twitter fa-3x "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="js/vendor/jquery-2.2.4.min.js "></script>
+    <script src="js/vendor/bootstrap.min.js "></script>
+    <script src="js/main.js "></script>
 </body>
 
 </html>

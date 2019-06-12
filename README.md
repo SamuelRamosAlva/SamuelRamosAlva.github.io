@@ -1,1 +1,0 @@
-# SamuelRamosAlva.github.io
