@@ -3110,12 +3110,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     opacity: 1;
 }
 
-
-/*--------- end brand Area -------------*/
-
-
-/*-------- Start Common Page Style   -------------*/
-
 .link-nav {
     margin-top: 10px;
     margin-bottom: 0px;
@@ -3149,22 +3143,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 600;
 }
 
-
-/*-------- End Common Page Style   -------------*/
-
-
-/* =================================== */
-
-
-/*  About Page Styles
-/* =================================== */
-
 .aboutpage-feedback-area {
     background: #f9f9ff !important;
 }
-
-
-/*-------- Start Skillbar Style  -------------*/
 
 .single-skill p {
     margin-top: 30px;
@@ -3289,13 +3270,6 @@ body.mobile-nav-active #mobile-nav-toggle {
         left: -33px;
     }
 }
-
-
-/* =================================== */
-
-
-/*  Pricing Page Styles
-/* =================================== */
 
 .accordion>dt {
     margin-bottom: 10px;
@@ -4428,6 +4402,11 @@ dl.accordion.time-line:before {
 
 .carousel-inner {
     max-height: 585px !important;
+    font-family: 'Suez One', serif;
+}
+
+.carousel-inner h1 {
+    color: white;
 }
 
 .carousel-caption {
