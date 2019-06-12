@@ -50,24 +50,24 @@ nav ul img {
 }
 
 .banner {
-    margin-top: 6%x;
+    margin-top: 15px;
     height: 220px;
-    border-radius: 2%;
-    background: url("../img/images_zozor only/sanfrancisco.jpg") no-repeat;
+    border-radius: 10px;
+    background: url("/img/images_zozor\ only/sanfrancisco.jpg") no-repeat;
     background-size: 100% 100%;
     position: relative;
-    box-shadow: 3% 5% 5% #1c1a19;
-    margin-bottom: 5%;
+    box-shadow: 0px 5px 5px #1c1a19;
+    margin-bottom: 25px
 }
 
 .banner_text {
-    width: 1147px;
     position: absolute;
+    width: 70%;
     top: 81%;
     bottom: 0;
-    border-radius: 0px 0px 10px 10px;
-    padding-top: 10px;
-    padding-left: 40px;
+    border-radius: 0% 0% 2% 2%;
+    padding-top: 0%;
+    padding-left: 30%;
     background-color: rgba(24, 24, 24, 0.8);
     color: white;
     font-size: 0.8em;
@@ -136,6 +136,11 @@ aside {
     text-align: center;
 }
 
+.ifonts {
+    display: inline-block;
+    text-align: center;
+}
+
 .photo img {
     width: 60%;
     height: 90%;
@@ -143,12 +148,13 @@ aside {
 }
 
 aside img {
-    margin-right: 5px;
+    margin-right: 3%;
 }
 
 footer {
-    background: url("../img/images_zozor only/ico_top.png") no-repeat top center, url("../img/images_zozor only/separateur.png") repeat-x top, url("../img/images_zozor only/ombre.png") repeat-x top;
-    padding-top: 25px;
+    display: inline-block;
+    text-align: center;
+    background: url("/img/images_zozor\ only/ico_top.png") no-repeat top center, url("/img/images_zozor\ only/separateur.png") repeat-x top, url("/img/images_zozor\ only/ombre.png") repeat-x top;
 }
 
 footer p,
@@ -160,43 +166,16 @@ footer h1 {
     font-size: 1.1em;
 }
 
-.fLeft,
-.fCenter,
-.fRigth {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.fLeft {
-    width: 28%;
-}
-
-.fCenter {
-    width: 35%;
-}
-
-.fRigth {
-    width: 31%;
-    position: absolute;
-    top: 152%;
-    right: 2%;
-}
-
-.fCenter img {
-    border: 1px solid #181818;
-    margin-right: 2px;
-}
-
-.fRigth ul {
+.footer section ul {
     display: inline-block;
     vertical-align: top;
     margin-top: 50px;
     width: 30%;
-    list-style-image: url("../images_zozor only/ico_liensexterne.png");
+    list-style-image: url("/img/images_zozor\ only/ico_liensexterne.png");
     padding-left: 0px;
 }
 
-.fRigth a {
+footer a {
     text-decoration: none;
     color: #760001;
 }
